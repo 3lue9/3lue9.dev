@@ -10,17 +10,9 @@
     "@types/node": "^16.18.108",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
-<<<<<<< HEAD
-    "@types/react-router-dom": "^5.3.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2",
-    "react-scripts": "^3.0.1",
-=======
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
->>>>>>> 8c399ac298aa5d3639e5ed433e28c83486166cd4
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
