@@ -8,6 +8,10 @@ import {
   SiMacos,
   SiArchlinux,
   SiNeovim,
+  SiObsidian,
+  SiFedora,
+  SiDiscord,
+  SiWindows,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -15,6 +19,9 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiArchlinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFedora />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
@@ -32,7 +39,13 @@ function Toolstack() {
         <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiObsidian />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDiscord />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWindows />
       </Col>
     </Row>
   );

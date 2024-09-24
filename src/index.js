@@ -8,8 +8,8 @@ import { Analytics } from "@vercel/analytics/react"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
     <Analytics/>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
